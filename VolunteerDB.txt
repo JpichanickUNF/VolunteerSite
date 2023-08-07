@@ -1,0 +1,50 @@
+
+/*
+* Create new table VOLUNTEER.
+* VOLUNTEER : Table of VOLUNTEER
+* F_name : F_name is of VOLUNTEER
+* L_name : L_name is of VOLUNTEER
+* Username : Username identifies VOLUNTEER
+* Password : Password is of VOLUNTEER
+* Work_pref : Work_pref is of VOLUNTEER
+* Skills : Skills is of VOLUNTEER
+* Availability : Availability is of VOLUNTEER
+* Address : Address is of VOLUNTEER
+* Home_phone : Home_phone is of VOLUNTEER
+* Work_phone : Home_phone is of VOLUNTEER
+* Cell_phone : Home_phone is of VOLUNTEER
+* Email : Email is of VOLUNTEER
+* Edu_bg : Edu_bg is of VOLUNTEER
+* Cur_lic : Cur_lic is of VOLUNTEER
+* Emgy_name : Emgy_name is of VOLUNTEER
+* Emgy_phone : Emgy_phone is of VOLUNTEER
+* Emgy_email : Emgy_email is of VOLUNTEER
+* Emgy_address : Emgy_address is of VOLUNTEER
+* Lic_filed : Lic_filed is of VOLUNTEER
+* SSC_filed : SSC_filed is of VOLUNTEER
+* APPD_volunteer : APPD_volunteer is of VOLUNTEER
+*/
+create table VOLUNTEER(
+F_name char(20) not null,
+L_name char(20) not null,
+Username char(20) not null UNIQUE,(remove unique)
+Password char(20) not null,
+Work_pref char(30) not null,
+Skills char(20) not null,
+Availability char(20) not null,
+Address char(30) not null,
+Home_phone numeric(12),
+Work_phone numeric(12),
+Cell_phone numeric(12) not null,
+Email char(30) not null,
+Edu_bg char (50),
+Cur_lic char(10) not null,
+Emgy_name char(20) not null,
+Emgy_phone numeric(12) not null,
+Emgy_email char(30) not null,
+Emgy_address char(30) not null,
+Lic_filed char(3) not null,
+SSC_filed char(3) not null,
+APPD_volunteer char(3) not null,
+primary key(Username)
+);
