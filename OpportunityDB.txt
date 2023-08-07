@@ -1,0 +1,16 @@
+Name
+Date and time
+description
+difficulty
+
+
+/*
+* Create new table OPPORTUNITY.
+* OPPORTUNITY : Table of OPPORTUNITY
+*/
+
+create table VOLUNTEER(
+
+
+primary key()
+);
