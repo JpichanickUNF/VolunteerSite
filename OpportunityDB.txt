@@ -1,16 +1,18 @@
-Name
-Date and time
-description
-difficulty
-
-
 /*
 * Create new table OPPORTUNITY.
 * OPPORTUNITY : Table of OPPORTUNITY
+* Name : Name is of OPPORTUNITY
+* DateTime : DateTime is of OPPORTUNITY
+* Address : Address is of OPPORTUNITY
+* Description : Description is of OPPORTUNITY
+* Difficulty : Difficulty is of OPPORTUNITY
 */
 
-create table VOLUNTEER(
-
-
-primary key()
+create table OPPORTUNITY(
+Name char(20) not null,
+DateTime char(12) not null,
+Address char(30) not null,
+Description char(70) not null,
+Difficulty char(10) not null,
+primary key(Name)
 );
