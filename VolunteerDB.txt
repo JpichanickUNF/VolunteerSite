@@ -45,6 +45,6 @@ Emgy_email char(30) not null,
 Emgy_address char(30) not null,
 Lic_filed char(3) not null,
 SSC_filed char(3) not null,
-APPD_volunteer char(3) not null,
+APPD_volunteer char(15) not null,
 primary key(Username)
 );
